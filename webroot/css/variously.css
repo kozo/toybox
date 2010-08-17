@@ -1,0 +1,75 @@
+.form-error {
+	border-color: #f00;
+	/*background-color: #FFF79F;*/
+	background-color: #FFF79F;
+}
+
+div.error-message {
+	clear: both;
+	color: #D00;
+	font-weight: bold;
+}
+
+/* Paging */
+div.paging{
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size:85%;
+}
+
+div.paging li{
+	display:inline;
+}
+
+div.paging a{
+	padding:5px 7px;
+	margin-right:4px;
+	border:1px solid #ccc;
+}
+
+div.paging a:hover{
+	color:#fff;
+	background-color:#87B75D;
+}
+
+div.paging span.current{
+	padding:5px 7px;
+	margin-right:4px;
+	border:1px solid #ccc;
+	font-weight:bold;
+	background-color:#ECFBE9;
+
+}
+
+div.paging div.disabled {
+    color: #999999;
+    margin-right:4px;
+    display: inline;
+}
+
+/* バリデーションサマリー */
+div.validationSummaryBody {
+	color: #333;
+	margin: 10px;
+	padding: 5px;
+	border: 1px dashed #FF99CC;
+	background-color: #FFFFCC;
+}
+
+div.summaryMessage
+{
+	color : Red;
+}
+
+/* IMEモード有効 */
+.ime-active
+{
+	ime-mode:active;
+}
+
+/* IMEモードOFF */
+.ime-inactive
+{
+	ime-mode:disabled;
+}
