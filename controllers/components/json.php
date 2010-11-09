@@ -51,7 +51,7 @@ class JsonComponent extends Object {
         {
             $list[] = array($val, $key);
         }
-        $json = $this->cakeJsonEncode($list);
+        $json = $this->toJson($list);
 
         return $json;
     }
