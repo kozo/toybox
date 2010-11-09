@@ -45,7 +45,7 @@ class JsonComponent extends Object {
      * @access public
      * @author sakuragawa
      */
-    protected function getSelectBoxUtilJsonData($data){
+    public function getSelectBoxUtilJsonData($data){
         $list = array();
         foreach($data as $key=>$val)
         {
